@@ -4,7 +4,7 @@ Adds support for defining cucumber steps using methods that contain the actual s
 
 ```groovy
 @When
-def "Customer adds product {string} to the cart(string productCode) {
+def "Customer adds product {string} to the cart"(string productCode) {
   ...
-}"
+}
 ```
